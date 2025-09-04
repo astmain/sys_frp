@@ -1,0 +1,39 @@
+#serverAddr = "127.0.0.1"
+#serverPort = 7000
+
+#[[proxies]]
+#name = "test-tcp"
+#type = "tcp"
+#localIP = "127.0.0.1"
+#localPort = 22
+#remotePort = 6000
+
+
+
+#[common]
+#serverAddr = "192.168.0.250"
+#serverPort = 7000
+#auth.method = "token"
+#auth.token = "DayuYun3D"
+#heartbeatInterval = 30
+
+
+
+#说明:
+# 启动方式cmd运行     frpc.exe -c frpc.toml
+# 端口7000是一个frp的登陆方式
+# 端口9070是服务的端口
+# 端口8080是本地电脑的端口
+# frp的网页管理界面   http://192.168.0.250:7500/       账号密码:   yun3d/Dayu_1688
+
+serverAddr = "192.168.0.250"
+serverPort = 7000
+auth.method = "token"
+auth.token = "DayuYun3D"
+
+[[proxies]]
+name = "web_service"
+type = "tcp"
+remotePort = 9070
+localIP = "127.0.0.1"
+localPort = 8080
