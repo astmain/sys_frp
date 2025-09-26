@@ -1,0 +1,23 @@
+serverAddr = "103.119.2.223"
+serverPort = 7100
+loginFailExit=true
+
+
+log.to="./frpc.log"
+log.level="info"
+log.maxDays=3
+
+
+auth.method="token"
+auth.token="testtoken"
+
+[[proxies]]
+name = "aaaaaaaa"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 3000
+remotePort = 6100
+
+
+
+

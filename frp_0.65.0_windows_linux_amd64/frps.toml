@@ -1,0 +1,25 @@
+bindAddr ="0.0.0.0"
+bindPort = 7100
+kcpBindPort =7100
+
+
+# 管理
+webServer.addr="0.0.0.0"
+webServer.port=7500
+webServer.user="admin"
+webServer.password="123456"
+
+log.to="frpslog/log.log"
+log.level="info"
+log.maxDays=3
+
+
+auth.method="token"
+auth.token="testtoken"
+allowPorts=[
+    {start=6000,end=7000},
+]
+
+
+
+#   systemd   /etc/systemd/system/frps.service
