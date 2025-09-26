@@ -46,14 +46,3 @@ remotePort = 9070                # 远程端口
 localIP = "127.0.0.1"            # 本地IP地址
 localPort = 8001                 # 本地端口
 
-
-
-# http://127.0.0.1:8001/api/auth_mall/test2
-# http://192.168.0.250:7000/api/auth_mall/test2
-# http://192.168.0.250:9070/api/auth_mall/test2
-# http://192.168.0.250:6666/api/auth_mall/test2
-
-
-#  http://192.168.0.250:7001/doc.html  
-#  http://192.168.0.250:7001/api/auth_mall/test2
-

@@ -1,1 +1,10 @@
 frp_0.64.0_windows_amd64
+
+
+配置文件
+frpc.toml
+
+
+
+运行方式 
+frpc.exe -c frpc.toml
